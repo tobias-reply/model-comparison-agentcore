@@ -1,0 +1,17 @@
+[project]
+name = "model-comparison"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bedrock-agentcore>=0.1.2",
+    "boto3>=1.40.13",
+    "strands-agents>=1.5.0",
+    "strands-agents-tools>=0.2.4",
+]
+
+[tool.uv.workspace]
+members = [
+    "logic",
+]
